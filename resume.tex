@@ -1,5 +1,5 @@
 \documentclass[10pt, a4paper]{article}
-\usepackage[cm]{fullpage}
+\usepackage[margin=0.5in]{geometry}
 \usepackage{hyperref}
 \hypersetup{
   colorlinks=true,
@@ -21,44 +21,70 @@
 \begin{flushleft}
 406-599-4238\\
 \href{mailto:mgbelisle@gmail.com}{mgbelisle@gmail.com}\\
-45-45 46th St.\\
-Sunnyside, NY 11377
+85 Pioneer Rd\\
+Three Forks, MT 59752
 \end{flushleft}
 \end{minipage}
 \end{flushright}
 \textbf{Job Interests}
 \begin{itemize*}
+  \item Pentesting
   \item Software engineering
   \item Japanese to English translation
 \end{itemize*}
 \textbf{Experience}
 \begin{itemize*}
   \item \emph{Software Engineer} (Mar. 2012 to present)\\
-    Workiva, Dev Team (Bozeman, MT, \url{https://www.wdesk.com/})
+    Workiva, IR Team (Bozeman, MT, \url{https://www.wdesk.com})
     \begin{itemize*}
-      \item Wrote a Python module to render our app's XML based charts as PDFs, SVGs, and PNGs
-      \item Wrote AngularJS components for an HTML5 canvas based document viewer
-      % \item Wrote a Python module to deliver collaborative document comments over a REST interface
-      \item Wrote a Go package to deliver typesetting data over a REST interface
-      \item Migrated many services in Dart, Go, and Java from REST and Websockets to Thrift
-      \item Implemented OAuth2 exchanges for many apps, both browser side and server side
-      \item Wrote a Workiva specific JWT/OAuth2 lib from Go's stdlibs
+      %% For InfoSec
+    \item Wrote many services, including fastpath (Java), gremlin (Go), parts of graph and admin clients (Dart)
+    \item Implemented auth for the Messaging team in messaging-sdk Java
+    \item Wrote the go-auth v2 token library from scratch using only Go's stdlibs
+    \item Consumed Workiva auth for many services including graph server/client, fastpath, graph admin, viewer
+    \item Consumed Microsoft, Twitter, Github, Facebook, AWS, Google auth on side projects
+    \item Wrote the iam-cli util from scratch using only Go's stdlibs (2/3 legged tokens, bigsky sessions)
+    \item Wrote a couple major features for Smithy and Zuul
+    \item Consumed smithy/shipyard/skynet on many projects including fastpath, graph, graph admin
+    \item Wrote an asynchronous API over messaging-sdk that did instance routing and large payloads efficiently
+    \item Wrote many of the iam-services endpoints in Python
+    \item Helped many teams troubleshoot CORS, CSP, SSL certs, websockets
+    \item Found and reported twelve high severity vulnerabilities in the Workiva platform in the last year
+      %% https://jira.atl.workiva.net/browse/CERT-1702
+      %% https://jira.atl.workiva.net/browse/SEC-13740
+      %% https://jira.atl.workiva.net/browse/SEC-13802
+      %% https://jira.atl.workiva.net/browse/RED-1808
+      %% https://jira.atl.workiva.net/browse/SEC-13932
+      %% https://jira.atl.workiva.net/browse/SEC-13937
+      %% https://jira.atl.workiva.net/browse/SEC-14019
+      %% https://jira.atl.workiva.net/browse/SEC-14124
+      %% https://jira.atl.workiva.net/browse/SEC-14143
+      %% https://jira.atl.workiva.net/browse/SEC-14222
+      %% https://jira.atl.workiva.net/browse/SEC-15242
+      %% https://jira.atl.workiva.net/browse/FILE-1060
+      
+      %% \item Wrote a Python module to render our app's XML based charts as PDFs, SVGs, and PNGs
+      %% \item Wrote AngularJS components for an HTML5 canvas based document viewer
+      %% \item Wrote a Go package to deliver typesetting data over a REST interface
+      %% \item Migrated many services in Dart, Go, and Java from REST and Websockets to Thrift
+      %% \item Implemented OAuth2 exchanges for many apps, both browser side and server side
+      %% \item Wrote a Workiva specific JWT/OAuth2 lib from Go's stdlibs
     \end{itemize*}
   \item \emph{Technical Support Engineer} (Mar. 2010 to Feb. 2012)\\
     RightNow Technologies, Customer Care Department\\
-    (Bozeman, MT, \url{http://www.rightnow.com/})
+    (Bozeman, MT, \url{https://www.rightnow.com})
     \begin{itemize*}
       \item Provided technical support for RNT's proprietary web framework (both PHP and JS side)
       \item Provided general technical support for Japanese clients in Japanese
     \end{itemize*}
   \item \emph{Web Programmer} (Dec. 2008 to Feb. 2010)\\
-    Elance (\url{http://www.elance.com/})
-    \begin{itemize*}
-      \item Wrote a django app for an Australian real-estate company MAE Pacific
-      \item Wrote a django app and doubled as system admin for a Chinese travel agency Shanghai Joy
-    \end{itemize*}
+    Elance (\url{https://www.elance.com})
+    %% \begin{itemize*}
+    %%   \item Wrote a django app for an Australian real-estate company MAE Pacific
+    %%   \item Wrote a django app and doubled as system admin for a Chinese travel agency Shanghai Joy
+    %% \end{itemize*}
   \item \emph{Japanese to English translator and technical editor} (Jun. 2006 to Feb. 2010)\\
-    Excellence-English Editing (\url{http://www.excellence-english.com})
+    Excellence-English Editing (\url{https://www.excellence-english.com})
     % \begin{itemize*}
     %   \item Provided technical grammar editing of science journal articles written in English by Japanese scientists and doctors
     %   \item Translated approximately 70 powerpoint slides created by Sanyo Electric Co. that related to dry cell and Li-Ion batteries
@@ -69,25 +95,28 @@ Sunnyside, NY 11377
 \begin{itemize*}
   \item \emph{Undergraduate} (Sep. 2006 through May 2009, not yet graduated)\\
     Montana State University Department of Computer Science\\
-    (Bozeman, MT, \url{http://www.montana.edu/})
+    (Bozeman, MT, \url{https://www.montana.edu})
     \begin{itemize*}
       \item Cumulative GPA of 3.64
     \end{itemize*}
-  \item \emph{Foreign Exchange} (Sep. 2007 through Aug. 2008) \\ Kumamoto University Department of Mechanical Engineering \\(Kumamoto Prefecture, Japan, \url{http://www.kumamoto-u.ac.jp/})
+  \item \emph{Foreign Exchange} (Sep. 2007 through Aug. 2008)\\
+    Kumamoto University Department of Mechanical Engineering\\
+    (Kumamoto Prefecture, Japan, \url{http://www.kumamoto-u.ac.jp})
   \item \emph{High School} (Sep. 2002 through Jun. 2006)\\
     The Oaks Classical Christian Academy\\
-    (Spokane, WA, \url{http://www.theoakscca.org/})
+    (Spokane, WA, \url{https://www.theoakscca.org})
     \begin{itemize*}
       \item Graduated with a cumulative GPA of 3.94
     \end{itemize*}
 \end{itemize*}
 \textbf{Skills}
 \begin{itemize*}
-  \item Expertise with Python, Go, App Engine, Datastore, Titan graph database, Thrift, MySQL, AngularJS, HTML5, and Android SDK
+  \item Expertise with Java, Python, Go, App Engine, Datastore, MySQL, Thrift, AngularJS, HTML5, and Android SDK
   \item Familiarity with Git, Node, Docker, Grunt, Bower, Gulp, Browserify, some other dev tools
-  \item Familiarity with Linux things like Apache, Lighttpd, Systemd, Avahi, BATMAN, package creation (Archlinux only)
+  \item Familiarity with Google Appengine, AWS, Digital Ocean platforms
+  \item Familiarity with Linux things like Apache, Lighttpd, Systemd, Avahi, BATMAN, package creation
   \item Enjoys bacon and crypto libraries on a weekly basis
-  \item Experience locating and exploiting security vulnerabilities like XSS, XSRF, SQLI, and XXE
+  \item Experience locating/exploiting vulnerabilities like XSS, CSRF, SQLI, XXE, birthday, timing attacks, DOS
 \end{itemize*}
 \textbf{Code Sample}
 \begin{itemize}
